@@ -6,11 +6,16 @@
     box-sizing: border-box;
 }
 
-/* Body Text and Color */
+/* Some default Text and Color */
 body {
     font-family: Helcetica, Arial, sans-serif;
     color: #39A6B2;
 }
+
+section {
+    padding: 60px;
+}
+
 
 /* Header Styles */
 
@@ -75,4 +80,25 @@ footer a {
 
 #hearts {
     color: red;
+}
+
+/* Hero Styling */
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    color: #024E76;
+    background-color: #FCE138;
+    padding: 20px;
+    width: 500px;
+    border: 3px solid #024E76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
