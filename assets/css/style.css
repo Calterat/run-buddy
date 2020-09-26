@@ -92,6 +92,8 @@ footer a {
     position: relative;
 }
 
+/* Hero Form Styling */
+
 .hero-form {
     color: #024E76;
     background-color: #FCE138;
@@ -101,4 +103,35 @@ footer a {
     position: absolute;
     bottom: 120px;
     right: 140px;
+}
+
+.hero-form h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024E76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024E76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #024E76;
+    color: #FCE138;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
 }
